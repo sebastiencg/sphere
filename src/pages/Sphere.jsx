@@ -22,7 +22,7 @@ const Sphere = () => {
 
     // Charger une vidéo comme texture
     const video = document.createElement("video");
-    video.src = "./public/salle.mp4"; // Remplace par le chemin de ta vidéo
+    video.src = "./src/assets/salle.mp4"; // Remplace par le chemin de ta vidéo
     video.loop = true;
     video.muted = true;
     video.play();
